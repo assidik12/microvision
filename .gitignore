@@ -1,0 +1,60 @@
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging/build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE and local configuration
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Face datasets and private reference images
+data/datasets/
+data/faces/
+data/references/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+*.csv
+
+# Generated runtime data and reports
+data/attendance.csv
+data/embeddings.json
+data/*_report.json
+data/dataset_report.json
+models/training_history.png
+reports/
+
+# Downloaded/trained model artifacts
+models/*.tflite
+models/*.task
+models/*.keras
+models/*.h5
+models/*.onnx
